@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color: #d8e2eb;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.container{
+    width: 320px;
+    height: 650px;
+    background-color: #161616;
+    margin:20px auto;
+    border-radius: 30px; 
+    padding:18px;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+    
+}
+
+.result{
+    text-align: end;
+    font-size: 50px; 
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+.btns{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.row{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+    
+}
+
+.row button{
+    width: 60px;
+    font-size: 26px;
+    padding: 15px 10px;
+    background-color: #6361618c;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+ button.number.zero{
+    padding-right: 110px;
+    padding-left: 25px;
+    border-radius: 30px;
+}
+
+button.operator{
+    background-color: yellowgreen;
+}
+
+button.clear, button.plusminus{
+    background-color: #928a8a;
+}
+
+.line{
+    width: 150px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 26%;
+}
